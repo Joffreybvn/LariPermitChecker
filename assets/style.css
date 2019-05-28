@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #7f8c8d;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.search label {
+    font-size: 3.08vw;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.bar {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #7f8c8d;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: #7f8c8d;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #7f8c8d;
+    background: #7f8c8d;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.minerbumping {
+    font-size: 0.78vw;
+    text-align: center;
+}
+
+.lari {
+    background: #141515;
+    display: flex;
+    border: 1px solid #000;
+    margin-top: 3vh;
+    padding: 10px;
+}
+
+.lari img {
+    margin-right: 10px;
+}
+
+.info {
+    color: #c4c4c4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
