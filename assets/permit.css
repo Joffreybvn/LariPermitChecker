@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,800&display=swap');
+
+a{
+    font-weight: 600 !important;
+}
+
+.minerbumping {
+    font-size: 0.77vw !important;
+}
+
+.search label {
+    font-weight: 800 !important;
+    font-size: 2.9vw !important;
+}
+
+.bar {
+    background: #7f8c8d;
+}
+
+.permit-header {
+    background: #7f8c8d;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.ppicture {
+    display: flex;
+}
+
+.ppicture img {
+    width: 128px;
+    height: 128px;
+}
+
+.pinfos {
+    color: #fff;
+    padding-left: 10px;
+}
+
+.pinfos a:hover {
+    color: #333333;
+}
+
+.pname {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.pkey {
+    font-size: 1.05vw;
+}
+
+.permit-content {
+    background: #fff;
+    padding: 10px;
+}
+
+.pgreen {
+    color: black;
+    font-size: 0.6vw;
+    margin-top: 7px;
+ }
